@@ -1,0 +1,59 @@
+/*--- GENERAL SETTINGS ---*/
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    color: #272727;
+    background-color: #cccccc;
+    line-height: 150%;
+}
+
+main {
+    width: 90%;
+    margin: 175px auto;
+    min-width: 700px;
+    padding-bottom: 50px;
+}
+
+h1 {
+    color: #0B9CB5;
+    font-size: 200%;
+    font-weight: normal;
+    margin: 40px 0 15px;
+}
+
+h2 {
+    color: #27536E;
+    margin-top: 15px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+
+/*--- END GENERAL SETTINGS ---*/
+
+
+/*--- HEADER/FOOTER SETTINGS ---*/
+
+
+/*--- END HEADER/FOOTER SETTINGS ---*/
+
+
+/*--- INDEX PAGE SETTINGS ---*/
+
+
+/*--- END INDEX PAGE SETTINGS ---*/
