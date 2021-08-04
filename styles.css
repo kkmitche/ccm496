@@ -49,6 +49,11 @@ p {
 
 /*--- HEADER/FOOTER SETTINGS ---*/
 
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
 footer {
     text-align: center;
     padding: 20px 0;
