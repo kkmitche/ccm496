@@ -49,6 +49,20 @@ p {
 
 /*--- HEADER/FOOTER SETTINGS ---*/
 
+header,
+footer {
+    background-color: #D2F0FF;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    min-width: 1000px;
+    z-index: 4;
+}
+
 footer a {
     color: white;
     text-decoration: none;
