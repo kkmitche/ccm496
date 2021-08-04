@@ -49,6 +49,11 @@ p {
 
 /*--- HEADER/FOOTER SETTINGS ---*/
 
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
 
 /*--- END HEADER/FOOTER SETTINGS ---*/
 
