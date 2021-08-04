@@ -54,6 +54,12 @@ footer {
     padding: 20px 0;
 }
 
+footer li {
+    display: inline-block;
+    font-size: 85%;
+    margin: 10px 20px;
+}
+
 
 /*--- END HEADER/FOOTER SETTINGS ---*/
 
