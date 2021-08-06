@@ -39,6 +39,10 @@ h2 {
     margin-top: 15px;
 }
 
+h3 {
+    color: white;
+}
+
 p {
     margin: 5px 0;
 }
@@ -51,7 +55,7 @@ p {
 
 header,
 footer {
-    background-color: #D2F0FF;
+    background-color: black;
 }
 
 header {
@@ -64,7 +68,7 @@ header {
 }
 
 footer a {
-    color: #27536E;
+    color: #0B9CB5;
     text-decoration: none;
 }
 
@@ -85,5 +89,62 @@ footer li {
 
 /*--- INDEX PAGE SETTINGS ---*/
 
+#padlet {
+    height: 400px;
+}
+
 
 /*--- END INDEX PAGE SETTINGS ---*/
+
+
+/*--- RESOURCES PAGE SETTINGS ---*/
+
+.rBox {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 10px 40px;
+    /* width: 80%;
+    max-width: 700px; */
+    position: relative;
+}
+
+.rBox h3 {
+    background-color: #27536E;
+    font-weight: normal;
+    font-size: 110%;
+    padding: 5px 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: -24px;
+}
+
+.rBox a {
+    color: #272727;
+    text-decoration: none;
+    line-height: 150%;
+}
+
+.rBox a:hover,
+a[href^="#"]:hover {
+    color: #0B9CB5;
+}
+
+.rBox a:hover::before,
+a[href^="#"]:hover::before {
+    content: "> ";
+}
+
+.rBox li {
+    list-style-type: none;
+}
+
+a[href^="#"] {
+    color: #2296cf;
+    text-decoration: none;
+    font-weight: normal;
+    line-height: 200%;
+}
+
+
+/*--- END RESOURCES PAGE SETTINGS ---*/
