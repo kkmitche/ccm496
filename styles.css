@@ -20,6 +20,12 @@ body {
     line-height: 150%;
 }
 
+#main {
+    width: 90%;
+    min-width: 700px;
+    padding: 10px 40px 40px;
+}
+
 main {
     width: 90%;
     margin: 175px auto;
@@ -45,6 +51,10 @@ h3 {
 
 p {
     margin: 5px 0;
+}
+
+.conWorks li {
+    list-style-type: none;
 }
 
 
@@ -123,14 +133,26 @@ footer li {
 /*--- INDEX PAGE SETTINGS ---*/
 
 #padlet {
-    height: 400px;
+    height: 500px;
     background-size: cover;
 }
 
+#indexText {
+    background-color: #cccccc;
+}
+
 #padText {
-    width: 50%;
+    /* width: 50%; */
     float: left;
-    margin: 0 5%;
+    margin: -15px 20px;
+}
+
+#padText>h1 {
+    /* text-shadow: 2px 2px #272727;
+    font-size: 250%;
+    margin: 0 0 50px 25px; */
+    font-weight: bold;
+    font-size: 200%;
 }
 
 #padText>a {
@@ -141,13 +163,98 @@ footer li {
     background-color: #0B9CB5;
     border: none;
     border-radius: 10px;
+    padding: 5px 10px;
+    float: right;
+    margin: -48px -260px;
     /* padding: 10px 15px;
     float: left;
     margin: 50px 0 25px 125px; */
 }
 
+#problemText {
+    width: 90%;
+    float: left;
+    padding: 10px 40px;
+}
+
+#problemText>p {
+    padding: 5px 5px 10px 5px;
+}
+
+#problemText>a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: #0B9CB5;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px;
+    /* margin: 10px 20px; */
+}
+
+#mattersText {
+    width: 90%;
+    float: left;
+    padding: 10px 40px;
+}
+
+#mattersText>p {
+    padding: 5px 5px 10px 5px;
+}
+
+#mattersText>a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: #0B9CB5;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px;
+    /* margin: 10px 20px; */
+}
+
+#youText {
+    width: 90%;
+    float: left;
+    padding: 10px 40px;
+}
+
+#youText>p {
+    padding: 5px 5px 10px 5px;
+}
+
+#youText>a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: #0B9CB5;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px;
+    /* margin: 10px 20px; */
+}
+
 
 /*--- END INDEX PAGE SETTINGS ---*/
+
+
+/*--- THE PROBLEM PAGE SETTINGS ---*/
+
+#problemPadlet {
+    height: 500px;
+    background-size: cover;
+}
+
+
+/* #whatsTheProblem {
+    margin: 
+} */
+
+
+/*--- END THE PROBLEM PAGE SETTINGS---*/
 
 
 /*--- RESOURCES PAGE SETTINGS ---*/
