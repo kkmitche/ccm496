@@ -127,6 +127,25 @@ footer li {
     background-size: cover;
 }
 
+#padText {
+    width: 50%;
+    float: left;
+    margin: 0 5%;
+}
+
+#padText>a {
+    text-decoration: none;
+    font-size: 110%;
+    font-weight: bold;
+    color: white;
+    background-color: #0B9CB5;
+    border: none;
+    border-radius: 10px;
+    /* padding: 10px 15px;
+    float: left;
+    margin: 50px 0 25px 125px; */
+}
+
 
 /*--- END INDEX PAGE SETTINGS ---*/
 
