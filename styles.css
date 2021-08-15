@@ -53,8 +53,94 @@ p {
     margin: 5px 0;
 }
 
+.recRes {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 10px 40px;
+    position: relative;
+}
+
+.conWorks {
+    background-color: #27536E;
+    padding: 20px;
+    margin: 20px 10px 40px;
+    position: relative;
+}
+
+.recRes h3 {
+    background-color: #27536E;
+    font-weight: normal;
+    font-size: 110%;
+    padding: 5px 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: -24px;
+}
+
+.conWorks h3 {
+    color: #27536E;
+    background-color: white;
+    font-weight: normal;
+    font-size: 110%;
+    padding: 5px 15px;
+    border: 2px solid #27536E;
+    border-radius: 10px;
+    position: absolute;
+    top: -24px;
+}
+
+.recRes a {
+    color: #272727;
+    text-decoration: none;
+    line-height: 150%;
+}
+
+.conWorks a {
+    color: white;
+    text-decoration: none;
+    line-height: 150%;
+}
+
+.recRes a:hover,
+a[href^="#"]:hover {
+    color: #0B9CB5;
+}
+
+.conWorks a:hover,
+a[href^="#"]:hover {
+    color: #0B9CB5;
+}
+
+.recRes a:hover::before,
+a[href^="#"]:hover::before {
+    content: "> ";
+}
+
+.conWorks a:hover::before,
+a[href^="#"]:hover::before {
+    content: "> ";
+}
+
+.recRes li,
 .conWorks li {
     list-style-type: none;
+}
+
+a[href^="#"] {
+    color: #2296cf;
+    text-decoration: none;
+    font-weight: normal;
+    line-height: 200%;
+}
+
+blockquote {
+    font-size: 120%;
+    font-style: italic;
+    font-weight: normal;
+    padding: 10px 20px;
+    border-left: 2px solid #0B9CB5;
+    border-right: 2px solid #0B9CB5;
 }
 
 
@@ -153,6 +239,7 @@ footer li {
     margin: 0 0 50px 25px; */
     font-weight: bold;
     font-size: 200%;
+    color: #27536E;
 }
 
 #padText>a {
@@ -160,7 +247,7 @@ footer li {
     font-size: 110%;
     font-weight: bold;
     color: white;
-    background-color: #0B9CB5;
+    background-color: #27536E;
     border: none;
     border-radius: 10px;
     padding: 5px 10px;
