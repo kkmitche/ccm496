@@ -53,15 +53,19 @@ p {
     margin: 5px 0;
 }
 
-.recRes {
-    background-color: white;
-    padding: 20px;
-    margin: 20px 10px 40px;
-    position: relative;
+.conWorks a {
+    color: white;
+    text-decoration: none;
+    line-height: 150%;
 }
 
-.conWorks {
-    background-color: #27536E;
+.conWorks li {
+    list-style-type: none;
+    color: white;
+}
+
+.recRes {
+    background-color: white;
     padding: 20px;
     margin: 20px 10px 40px;
     position: relative;
@@ -78,26 +82,8 @@ p {
     top: -24px;
 }
 
-.conWorks h3 {
-    color: #27536E;
-    background-color: white;
-    font-weight: normal;
-    font-size: 110%;
-    padding: 5px 15px;
-    border: 2px solid #27536E;
-    border-radius: 10px;
-    position: absolute;
-    top: -24px;
-}
-
 .recRes a {
     color: #272727;
-    text-decoration: none;
-    line-height: 150%;
-}
-
-.conWorks a {
-    color: white;
     text-decoration: none;
     line-height: 150%;
 }
@@ -122,8 +108,7 @@ a[href^="#"]:hover::before {
     content: "> ";
 }
 
-.recRes li,
-.conWorks li {
+.recRes li {
     list-style-type: none;
 }
 
