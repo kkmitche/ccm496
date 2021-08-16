@@ -208,6 +208,12 @@ footer li {
     background-size: cover;
 }
 
+#indexQuote {
+    float: left;
+    margin: 90px 20px 0 -200px;
+    /* padding: 90px 20px 0px; */
+}
+
 #indexText {
     background-color: #cccccc;
 }
@@ -290,7 +296,7 @@ footer li {
 #youText {
     width: 90%;
     float: left;
-    padding: 10px 40px;
+    padding: 10px 40px 100px;
 }
 
 #youText>p {
