@@ -124,8 +124,8 @@ blockquote {
     font-style: italic;
     font-weight: normal;
     padding: 10px 20px;
-    border-left: 2px solid #0B9CB5;
-    border-right: 2px solid #0B9CB5;
+    border-left: 3px solid #0B9CB5;
+    border-right: 3px solid #0B9CB5;
 }
 
 
@@ -136,7 +136,7 @@ blockquote {
 
 header,
 footer {
-    background-color: black;
+    background-color: #27536E;
 }
 
 header {
@@ -150,10 +150,13 @@ header {
 
 header>h1 {
     padding-left: 20px;
+    color: white;
+    /* font-weight: bold; */
 }
 
 header>h2 {
     padding-left: 25px;
+    color: #0B9CB5
 }
 
 nav {
@@ -214,11 +217,12 @@ footer li {
     background-size: cover;
 } */
 
-#indexQuote>blockquote {
-    float: left;
+
+/* #indexQuote>blockquote {
+    /* float: left;
     margin: 90px 20px 0 -200px;
-    /* padding: 90px 20px 0px; */
-}
+    padding: 90px 20px 0px; 
+}*/
 
 #indexText {
     background-color: #cccccc;
@@ -255,7 +259,116 @@ footer li {
     margin: 50px 0 25px 125px; */
 }
 
+#indexText>blockquote {
+    width: 80%;
+    float: left;
+    margin: 10px 100px;
+}
+
 #problemText {
+    width: 25%;
+    float: left;
+    margin: 10px 10px 40px 85px;
+    padding: 10px;
+    padding-bottom: 40px;
+    background-color: #27536E;
+    border: none;
+    border-radius: 10px;
+}
+
+#problemText>h1 {
+    /* font-size: 90%; */
+    line-height: 110%;
+    text-align: center;
+}
+
+#problemText>p {
+    padding: 5px 5px 10px 5px;
+    color: white;
+}
+
+#problemText>a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: #0B9CB5;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px 120px;
+    /* margin: 10px 20px; */
+}
+
+#mattersText {
+    width: 25%;
+    float: left;
+    margin: 10px 10px 40px 40px;
+    padding: 10px;
+    padding-bottom: 40px;
+    background-color: #27536E;
+    border: none;
+    border-radius: 10px;
+}
+
+#mattersText>h1 {
+    /* font-size: 90%; */
+    line-height: 110%;
+    text-align: center;
+}
+
+#mattersText>p {
+    padding: 5px 5px 10px 5px;
+    color: white;
+}
+
+#mattersText>a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: #0B9CB5;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px 120px;
+    /* margin: 10px 20px; */
+}
+
+#youText {
+    width: 25%;
+    float: left;
+    margin: 10px 10px 40px 40px;
+    padding: 10px;
+    padding-bottom: 40px;
+    background-color: #27536E;
+    border: none;
+    border-radius: 10px;
+}
+
+#youText>h1 {
+    /* font-size: 90%; */
+    line-height: 110%;
+    text-align: center;
+}
+
+#youText>p {
+    padding: 5px 5px 10px 5px;
+    color: white;
+}
+
+#youText>a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: #0B9CB5;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px 120px;
+    /* margin: 10px 20px; */
+}
+
+
+/* #problemText {
     width: 90%;
     float: left;
     padding: 10px 40px;
@@ -274,10 +387,11 @@ footer li {
     border-radius: 10px;
     padding: 5px 10px;
     margin: 5px;
-    /* margin: 10px 20px; */
-}
+    /* margin: 10px 20px;
+} */
 
-#mattersText {
+
+/* #mattersText {
     width: 90%;
     float: left;
     padding: 10px 40px;
@@ -296,10 +410,11 @@ footer li {
     border-radius: 10px;
     padding: 5px 10px;
     margin: 5px;
-    /* margin: 10px 20px; */
-}
+    /* margin: 10px 20px;
+} */
 
-#youText {
+
+/* #youText {
     width: 90%;
     float: left;
     padding: 10px 40px 100px;
@@ -318,8 +433,11 @@ footer li {
     border-radius: 10px;
     padding: 5px 10px;
     margin: 5px;
-    /* margin: 10px 20px; */
+    /* margin: 10px 20px;
+
+
 }
+*/
 
 
 /*--- END INDEX PAGE SETTINGS ---*/
