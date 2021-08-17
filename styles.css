@@ -208,7 +208,13 @@ footer li {
     background-size: cover;
 }
 
-#indexQuote {
+
+/* #indexQuote {
+    background-color: white;
+    background-size: cover;
+} */
+
+#indexQuote>blockquote {
     float: left;
     margin: 90px 20px 0 -200px;
     /* padding: 90px 20px 0px; */
